@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao DOM</title>
+</head>
+<style>
+    body{
+        background-color: rgba(119, 201, 228, 0.911);
+        color: white;
+        font: normal 10pt arial;
+    }
+</style>
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+<p>Aprendendo a usar o <strong>DOM</strong> em JS</p>
+    <div id="msg">
+        <p>Clique em mim</p>
+    </div>
+    
+    
+    <script>
+        //var p1 = document.getElementsByTagName('p')[0]
+        //var corpo = document.body
+        //p1.style.color = 'green'
+        //corpo.style.background ='black'
+
+        //Marcação por ID
+
+        //var d = document.getElementById('msg')
+        //d.style.background='gray'
+        //d.innerText="Visca a Barça"
+
+        //Marcação por Seletor
+
+        var d = document.querySelector('div#msg')
+        d.style.background ="red"
+        
+       
+        
+</script>
+   
+    
+</body>
+</html>
