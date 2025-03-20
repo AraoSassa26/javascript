@@ -6,6 +6,7 @@
 body{
 background-color: rgb(70, 142, 241);
 font: normal 15pt Arial;
+
 }
 header{
 color: white;
@@ -16,12 +17,23 @@ padding: 10px;
 main section{
     background-color: white;
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px;
     width: 500px;
     margin: auto;
+    text-align: center;
+    
   
 
 }
+img {
+    width: 150px;  /* Define a largura fixa */
+    height: 150px; /* Define a altura fixa */
+    border-radius: 50%; /* Deixa a imagem circular */
+    object-fit: cover; /* Garante que a imagem se ajuste sem distorcer */
+    border: 3px solid #1877F2; /* Opcional: borda azul estilo Facebook */
+    
+}
+
 footer{
     color: white;
     text-align: center;
